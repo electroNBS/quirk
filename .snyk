@@ -1,0 +1,77 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - sentry-expo > @sentry/react-native > @sentry/wizard > @sentry/cli > https-proxy-agent:
+        patched: '2022-10-05T19:00:28.772Z'
+  SNYK-JS-LODASH-567746:
+    - expo > expo-sqlite > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > @react-native-community/cli-platform-ios > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > @react-native-community/cli-platform-android > @react-native-community/cli-tools > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - expo > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - expo > @expo/vector-icons > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - '@expo/vector-icons > lodash':
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > @babel/core > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > metro-source-map > @babel/types > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - expo > babel-preset-expo > @babel/core > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > metro-babel-register > @babel/register > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - sentry-expo > @sentry/react-native > @sentry/wizard > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - expo > babel-preset-expo > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > metro-babel-register > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - sentry-expo > @sentry/react-native > @sentry/wizard > inquirer > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - expo > babel-preset-expo > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - expo > babel-preset-expo > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > async > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > jest > jest-cli > jest-config > babel-core > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > jest > jest-cli > jest-config > babel-core > babel-register > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
+    - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-10-05T19:00:28.772Z'
