@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.25.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -75,3 +75,49 @@ patch:
         patched: '2022-10-06T18:56:31.400Z'
     - jest-expo > jest > jest-cli > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
         patched: '2022-10-06T18:56:31.400Z'
+    - jest-expo > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest-expo > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > @babel/template > @babel/types > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-react-native-babel-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest-expo > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-babel-register > @babel/register > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - expo > babel-preset-expo > metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-babel-register > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-react-native-babel-preset > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - expo > babel-preset-expo > metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest-expo > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-hermes > @react-native-community/cli-platform-android > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-hermes > @react-native-community/cli-platform-android > @react-native-community/cli-tools > lodash:
+        patched: '2023-05-24T20:13:35.839Z'
